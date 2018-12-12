@@ -18,6 +18,10 @@ const Route = use('Route')
 
 Route.get('/', "WorldcapitalController.displayCapital")
 
+Route.get('/:id', "WorldcapitalController.getById")
+
 Route.post('/', 'WorldcapitalController.addCapital')
 
-Route.delete('/', 'WorldcapitalController.deleteCapital')
+Route.delete('/:id', 'WorldcapitalController.deleteCapital')
+
+Route.put('/:id' , 'WorldcapitalController.updateCapital')
