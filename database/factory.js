@@ -25,13 +25,13 @@ Factory.blueprint('App/Models/Country', async (faker,  i, data) => {
 
 })
 
-Factory.blueprint('App/Models/Test', async (faker,  i, data) => {
-  // console.log(data)
-  return {
-    test: faker.word()
-  }
+// Factory.blueprint('App/Models/Test', async (faker,  i, data) => {
+//   // console.log(data)
+//   return {
+//     test: faker.word()
+//   }
 
-})
+// })
 
 Factory.blueprint('App/Models/Continent', async (faker,  i, data) => {
   // console.log(data)

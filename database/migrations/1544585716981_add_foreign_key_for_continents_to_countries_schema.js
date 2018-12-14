@@ -14,7 +14,7 @@ class AddForeignKeyForContinentsToCountriesSchema extends Schema {
   down () {
     this.table('countries', (table) => {
       // reverse alternations
-      this.dropColumn('continent_id')
+      table.dropColumn('continent_id')
     })
   }
 }

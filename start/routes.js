@@ -25,3 +25,9 @@ Route.post('/', 'WorldcapitalController.addCapital')
 Route.delete('/:id', 'WorldcapitalController.deleteCapital')
 
 Route.put('/:id' , 'WorldcapitalController.updateCapital')
+
+
+
+Route.get('/country/continent/:id',"WorldcapitalController.displayCountriesofContinents")
+
+// Make api route in id of continent and get back all the countries that are attached

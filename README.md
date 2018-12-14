@@ -1,3 +1,11 @@
+Created Country table
+Created Continent Table
+
+Seed the database
+Make api route in id of continent and get back all the countries that are attached
+
+
+
 # Adonis API application
 
 This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
